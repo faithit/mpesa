@@ -12,7 +12,7 @@
 <form method="POST" action="{% url 'pay'%}">
     {%csrf_token%}
     <label for="phone" class="form-label">Phone Number</label>
-    <input type="number" name="phone" id="phone" class="form-control"><br>
+    <input type="number" name="abcd" id="phone" class="form-control"><br>
     <label for="amount"class="form-label">Amount</label>
     <input type="number" name="amount"id="amount" class="form-control"><br>
     <button type="submit" class="btn btn-primary">Pay Now</button>
